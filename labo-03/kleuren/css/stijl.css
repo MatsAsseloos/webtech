@@ -2,7 +2,51 @@
 
 /* === tokens === */
 :root {
-
+--color-tomato: #FF6347;
+--color-orangered: #FF4500;
+--color-coral: #FF7F50;
+--color-lightsamon: #ffa07a;
+--color-darkorange: #FF8C00;
 }
 
 /* === your rules === */
+ul{
+    list-style : none;
+    padding-left : 0;
+    
+}
+
+li{
+    height : 50vh;
+    padding-top : 9rem;
+}
+h2{
+    letter-spacing: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+body{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+.codes span{
+    margin-right: 1rem;
+    font-size: 0.5rem;
+}
+
+.tomato{
+    background-color: var(--color-tomato);
+}
+.orangered{
+    background-color: var(--color-orangered);
+}
+.coral{
+    background-color: var(--color-coral);
+}
+.lightsalmon{
+    background-color: var(--color-lightsamon);
+}
+.darkorange{
+    background-color: var(--color-darkorange);
+}
